@@ -364,7 +364,6 @@
         background: crimson;
         top: 50%;
         opacity: 1;
-        border-radius: 10px;
     }
     
     .services .serv-content .card .box {
@@ -442,11 +441,11 @@
         gap: 10px;
     }
     
-    .skills-content .right .text {
-        font-size: 20px;
+    .services .serv-content .card .text {
+        font-size: 25px;
         font-weight: 500;
         margin: 10px 0 7px 0;
-        color: #000;
+        color: #fff;
     }
     
     .skills .skills-content .right img {

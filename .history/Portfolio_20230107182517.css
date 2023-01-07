@@ -364,7 +364,6 @@
         background: crimson;
         top: 50%;
         opacity: 1;
-        border-radius: 10px;
     }
     
     .services .serv-content .card .box {
@@ -437,21 +436,13 @@
     .skills .skills-content .right {
         width: 45%;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: re;
         padding: 10px;
-        gap: 10px;
-    }
-    
-    .skills-content .right .text {
-        font-size: 20px;
-        font-weight: 500;
-        margin: 10px 0 7px 0;
-        color: #000;
     }
     
     .skills .skills-content .right img {
-        height: 170px;
-        width: 170px;
+        height: 200px;
+        width: 200px;
         object-fit: contain;
         border-radius: 6px;
     }
@@ -850,8 +841,5 @@
         .repos .card {
             width: calc(100% - 20px);
             padding: 50px 25px;
-        }
-        .skills .skills-content .right {
-            grid-template-columns: repeat(1, 1fr);
         }
     }
